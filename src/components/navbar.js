@@ -12,10 +12,10 @@ const  Navbar = () =>{
                 <a href="#">Inicio</a>
                 <a href="#">Contacto</a>
                 <a href="#">Nosotros</a>
-
-                <button className='boton'>
-                <cardWidget/>
-                </button>
+                <a><cardWidget/></a>
+                
+                
+                
         </nav>
     </div>
 

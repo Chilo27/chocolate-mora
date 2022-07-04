@@ -1,7 +1,12 @@
 import React from 'react'
-
- const itemListContainer = ({ greeting }) => {
-  return <div>{greeting}</div>
+import itemcount from './itemcount';
+ const itemListContainer = ({greeting}) => {
+  return <div>
+    {greeting}
+    <ItemCount stock={5} 
+    initial={1} 
+    onAdd={() => alert('agregados ${n} productos')}/>
+  </div>
   
 };
 
