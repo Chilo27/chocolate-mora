@@ -1,6 +1,7 @@
 import React from 'react'
-import "./cardWidget"
+import CartWidget from './CartWidget'
 import "./navbar.css"
+import { BoxIconElement } from 'boxicons'
 
 const  Navbar = () =>{
   return (
@@ -8,13 +9,12 @@ const  Navbar = () =>{
     <div className="Navbar">
         <div class="nav-bg">
         <nav class="nav-servicios enlaces">
-                
                 <a href="#">Inicio</a>
                 <a href="#">Contacto</a>
                 <a href="#">Nosotros</a>
-                <a><cardWidget/></a>
-                
-                
+          <button className='boton'>
+          <CartWidget/>
+          </button>
                 
         </nav>
     </div>

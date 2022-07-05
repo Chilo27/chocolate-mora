@@ -6,6 +6,9 @@ html {
   
   .nav-bg a:hover {
     color: #3498db; }
+    
+
+
 
 .enlaces {
     width: 35rem;
@@ -13,13 +16,15 @@ html {
   
   .nav-bg {
     background: linear-gradient(90deg, #020024 0%, black 100%, #00d4ff 100%); }
-  
+    
   .nav-servicios {
     margin-bottom: 2rem;
     padding: 1rem;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between; 
+  }
   
   .nav-servicios a {
     color: #ffff;
     text-decoration: none; }
+   
