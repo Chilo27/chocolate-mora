@@ -8,7 +8,7 @@ import ItemCount from './ItemCount';
     <ItemCount 
     stock={5} 
     initial={1} 
-    onAdd={(n) => alert('agregados ${n} productos')}
+    onAdd={(n) => alert(`agregados ${n} productos`)}
     />
   </div>
   );
